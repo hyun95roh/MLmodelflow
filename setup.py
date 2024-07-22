@@ -4,7 +4,7 @@ with open("README.md", "r") as mlmf:
     long_description = mlmf.read()
 
 setup(
-    name="ml_modelflow",
+    name="MLmodelflow",
     version="0.0.1",
     license="MIT",
     author="hyun95roh",

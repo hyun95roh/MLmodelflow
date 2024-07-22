@@ -1,0 +1,12 @@
+LICENSE
+ml_map.png
+readme.md
+requirements.txt
+setup.py
+MLmodelflow/__init__.py
+MLmodelflow/main.py
+MLmodelflow.egg-info/PKG-INFO
+MLmodelflow.egg-info/SOURCES.txt
+MLmodelflow.egg-info/dependency_links.txt
+MLmodelflow.egg-info/requires.txt
+MLmodelflow.egg-info/top_level.txt
