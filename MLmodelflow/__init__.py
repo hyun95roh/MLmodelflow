@@ -1,2 +1,2 @@
-from ml_modelflow.main import * 
+from MLmodelflow.main import * 
 
