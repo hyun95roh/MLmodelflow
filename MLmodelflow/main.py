@@ -83,17 +83,18 @@ def modelflow(data):
 
 def read_multi_extension(path:list ):  
     directories = path 
-    data_dic = {} 
+    data_dic = {i:None for i in range(len(path))} 
+    key = 0 
     for directory in directories:
         delim = check_delimiters(directory)
         extension = directory[directory.rfind('.')+1:]
         if extension in ['xlsx','xls','xlsb','xlsm']: 
             extension = 'excel' 
+            data_dic[key] = eval(f'pd.read_{extension}("{directory}")')
         else: 
             extension = 'csv'
-
-    data_dic[] = eval(f'pd.read_{extension}("{directory}",delimiter={delim})')  
-    
+            data_dic[key] = eval(f'pd.read_{extension}("{directory}",delimiter={delim})')
+        key+= 1   
     return data_dic 
 
 

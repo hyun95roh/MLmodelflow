@@ -5,8 +5,11 @@ requirements.txt
 setup.py
 MLmodelflow/__init__.py
 MLmodelflow/main.py
+MLmodelflow/model_navi.ipynb
 MLmodelflow.egg-info/PKG-INFO
 MLmodelflow.egg-info/SOURCES.txt
 MLmodelflow.egg-info/dependency_links.txt
 MLmodelflow.egg-info/requires.txt
 MLmodelflow.egg-info/top_level.txt
+dist/MLmodelflow-0.0.1-py3-none-any.whl
+dist/mlmodelflow-0.0.1.tar.gz

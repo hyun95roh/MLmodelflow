@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: MLmodelflow
-Version: 0.0.1
+Version: 0.0.5
 Summary: Model flow chart on the Scikit-learn
 Home-page: https://github.com/hyun95roh/ml_Modelflow
 Author: hyun95roh

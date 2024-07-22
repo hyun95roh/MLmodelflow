@@ -5,7 +5,7 @@ with open("README.md", "r") as mlmf:
 
 setup(
     name="MLmodelflow",
-    version="0.0.1",
+    version="0.0.5",
     license="MIT",
     author="hyun95roh",
     author_email="hroh@usc.edu",
