@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ml_modelflow
+Version: 0.0.1
+Summary: Model flow chart on the Scikit-learn
+Home-page: https://github.com/hyun95roh/ml_Modelflow
+Author: hyun95roh
+Author-email: hroh@usc.edu
+License: MIT
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+# Machine Learning Model Flow 
+---
+This package supports deciding your model, based on the Scikit-learn modelflow chart.
