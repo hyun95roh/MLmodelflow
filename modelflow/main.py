@@ -113,3 +113,6 @@ def check_delimiters(file_path):
             #print(f"Delimiter '{delimiter}' did not work.")
     print(f"Could not find a suitable delimiter for {file_path}\n")
     return None
+
+
+
